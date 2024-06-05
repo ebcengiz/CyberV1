@@ -1,0 +1,28 @@
+/* navbarV1.css */
+
+.navbar-brand-mr {
+  margin-right: 62.53px !important;
+}
+
+.navbar-brand-ml {
+  margin-left: 62.53px !important;
+}
+
+.nav-link-mr {
+  margin-right: 52px;
+}
+.nav-link-contact {
+  white-space: nowrap; /* Contact Us yazısının tek satırda kalmasını sağlar */
+}
+/* 
+.favorite-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+  }
+   */
+
+/* navbarV1.css */
+.nav-link-container {
+  margin-right: 24px;
+}
