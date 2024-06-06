@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./homeAv1.css";
 import HomeAvT1 from "./homeAvT1/HomeAvT1";
+import HomeAvImg from "./homeAvImg/HomeAvImg";
 
 const HomeAv1 = () => {
   return (
@@ -14,7 +15,9 @@ const HomeAv1 = () => {
           <Col lg={6}>
             <HomeAvT1 />
           </Col>
-          <Col lg={6}>2 of 2</Col>
+          <Col lg={6}>
+            <HomeAvImg />
+          </Col>
         </Row>
       </Container>
     </>
