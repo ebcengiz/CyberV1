@@ -1,0 +1,98 @@
+/* Global styles */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+.content-box {
+  width: 714px;
+  height: 256px;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+.context-box-col {
+  padding: 160px !important;
+}
+
+.title-one {
+  width: 714px;
+  height: 32px;
+  gap: 0px;
+  opacity: 40%;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.title-two {
+  width: 714px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 24px;
+}
+
+.text-one {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; /* Daha ince bir yazı tipi ağırlığı */
+  font-style: normal;
+  font-size: 96px;
+  line-height: 72px; /* Satır yüksekliği */
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.text-two {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; /* Daha kalın bir yazı tipi ağırlığı */
+  font-style: normal;
+  font-size: 96px;
+  line-height: 72px; /* Satır yüksekliği */
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+  .content-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .title-one {
+    font-size: 20px;
+  }
+
+  .text-one,
+  .text-two {
+    font-size: 48px;
+    line-height: 48px;
+  }
+} */
+
+.title-three {
+  width: 714px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #909090;
+  margin-bottom: 24px;
+}
+
+.title-button {
+  margin-top: 24px;
+  padding-left: 12px;
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}

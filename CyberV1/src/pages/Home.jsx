@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import HomeAv1 from "../components/homeA/homeAv1/HomeAv1";
 
 const Home = () => {
   return (
     <>
-      <h1>HOME</h1>
+      <HomeAv1 />
     </>
   );
 };
