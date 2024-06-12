@@ -6,8 +6,9 @@ import PlayStationI from "../../../../../assets/PlayStation.svg";
 const HomeAv2A1Img = () => {
   return (
     <>
-      <Figure>
+      <Figure className="p-0 m-0">
         <Figure.Image
+          className="m-0"
           width={360}
           height={343}
           alt="360x343"

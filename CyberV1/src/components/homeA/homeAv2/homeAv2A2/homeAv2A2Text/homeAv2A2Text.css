@@ -1,0 +1,42 @@
+.t-t-m {
+  width: 160px;
+  height: 143px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.t-t-a {
+  width: 160px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+  color: black;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.t-t-a .t-t-am {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 8px !important;
+}
+
+.t-t-d {
+  width: 160px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #909090;
+}
