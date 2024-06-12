@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeAv2A1 from "./homeAv2A1/HomeAv2A1";
 import HomeAv2A2 from "./homeAv2A2/HomeAv2A2";
+import HomeAv2A3 from "./homeAv2A3/HomeAv2A3";
 
 const HomeAv2 = () => {
   return (
@@ -23,7 +24,12 @@ const HomeAv2 = () => {
               >
                 <HomeAv2A2 />
               </Col>
-              <Col>2 of 2</Col>
+              <Col
+                className="d-flex flex-column align-items-center justify-content-center p-0 m-0 pt-5"
+                style={{ background: "#353535" }}
+              >
+                <HomeAv2A3 />
+              </Col>
             </Row>
           </Col>
           <Col>2.Row</Col>

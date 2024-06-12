@@ -1,0 +1,41 @@
+.t-t-am1 {
+  width: 160px;
+  height: 144px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.t-t-av1 {
+  width: 160px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.t-t-av1 .t-t-pv1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+}
+
+.t-t-dv1 {
+  width: 160px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #909090;
+}
