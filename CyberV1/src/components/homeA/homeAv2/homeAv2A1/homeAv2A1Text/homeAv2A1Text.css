@@ -1,0 +1,25 @@
+.title-t {
+  width: 338px;
+  height: 40px;
+  color: black;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 49px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  opacity: 1; /* Visible text */
+  margin-bottom: 16px;
+}
+
+.text-t {
+  width: 338px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  color: #909090;
+  font-family: "SF Pro Display, sans-serif";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
