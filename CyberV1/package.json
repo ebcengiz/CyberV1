@@ -13,6 +13,7 @@
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "glob": "^10.4.1",
+    "json-server": "^1.0.0-beta.1",
     "lru-cache": "^10.2.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
