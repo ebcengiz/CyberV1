@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import HomeAv2A1 from "./homeAv2A1/HomeAv2A1";
 import HomeAv2A2 from "./homeAv2A2/HomeAv2A2";
 import HomeAv2A3 from "./homeAv2A3/HomeAv2A3";
+import HomeAv2A4 from "./homeAv2A4/HomeAv2A4";
 
 const HomeAv2 = () => {
   return (
@@ -32,7 +33,9 @@ const HomeAv2 = () => {
               </Col>
             </Row>
           </Col>
-          <Col>2.Row</Col>
+          <Col>
+            <HomeAv2A4 />
+          </Col>
         </Row>
       </Container>
     </>
