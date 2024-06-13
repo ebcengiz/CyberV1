@@ -33,7 +33,10 @@ const HomeAv2 = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col
+            className="d-flex flex-column align-items-center justify-content-center p-0 m-0"
+            style={{ background: "#EDEDED" }}
+          >
             <HomeAv2A4 />
           </Col>
         </Row>

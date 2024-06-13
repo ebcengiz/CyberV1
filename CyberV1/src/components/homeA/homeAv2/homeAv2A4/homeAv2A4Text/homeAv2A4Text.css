@@ -1,0 +1,46 @@
+.m-content {
+  width: 360px;
+  height: 192px;
+  gap: 16px;
+  opacity: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.m-t-t {
+  width: 360px;
+  height: 56px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 56px;
+  text-align: left;
+  color: black;
+  margin-bottom: 16px;
+}
+
+.m-t-t .m-s-t-t {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 56px;
+  text-align: left;
+}
+
+.m-d-t-t {
+  width: 360px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #909090;
+  margin-bottom: 16px;
+  white-space: pre-wrap;
+  word-break: break-word; /* Uzun kelimeleri kır */
+}
