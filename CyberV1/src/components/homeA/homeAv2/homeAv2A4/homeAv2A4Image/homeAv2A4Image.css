@@ -1,0 +1,11 @@
+/* homeAv2A4Image.css */
+.figure-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end !important;
+}
+
+.figure-container .figure {
+  margin: 0; /* Ekstra boşlukları kaldırmak için */
+  padding: 0;
+}
