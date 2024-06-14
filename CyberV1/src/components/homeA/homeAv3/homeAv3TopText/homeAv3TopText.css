@@ -1,0 +1,30 @@
+.top-text-container {
+  display: flex;
+  align-items: center; /* Dikey hizalama */
+}
+
+.top-text-browse {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: black;
+  white-space: nowrap;
+  margin-right: 10px; /* Metin ile ilk görsel arasındaki boşluk */
+}
+
+.arrows-container {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-one,
+.arrow-two {
+  width: 32px;
+  height: 32px;
+}
+
+.arrow-one {
+  margin-right: 16px; /* İlk görsel ile ikinci görsel arasındaki boşluk */
+}

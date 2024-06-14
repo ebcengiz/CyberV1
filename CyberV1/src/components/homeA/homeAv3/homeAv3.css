@@ -1,0 +1,20 @@
+.main-category {
+  width: 100% !important;
+  height: 352px !important;
+  padding: 80px 160px 80px 160px !important;
+  gap: 32px !important;
+  opacity: 0px !important;
+  background-color: #fafafa;
+  box-sizing: border-box !important;
+}
+
+.top-category {
+  width: 1120px !important;
+  height: 32px !important;
+  gap: 0px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  opacity: 0px !important;
+}
