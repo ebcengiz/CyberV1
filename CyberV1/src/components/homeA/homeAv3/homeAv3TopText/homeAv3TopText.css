@@ -1,6 +1,8 @@
 .top-text-container {
   display: flex;
-  align-items: center; /* Dikey hizalama */
+  justify-content: space-between; /* Sağ ve sol hizalama için */
+  align-items: center;
+  width: 100%;
 }
 
 .top-text-browse {
@@ -10,21 +12,15 @@
   line-height: 32px;
   letter-spacing: 0.01em;
   color: black;
-  white-space: nowrap;
-  margin-right: 10px; /* Metin ile ilk görsel arasındaki boşluk */
+  margin-left: 27px;
 }
 
-.arrows-container {
-  display: flex;
-  align-items: center;
-}
-
-.arrow-one,
-.arrow-two {
+.arrow-one {
   width: 32px;
   height: 32px;
 }
 
-.arrow-one {
-  margin-right: 16px; /* İlk görsel ile ikinci görsel arasındaki boşluk */
+img.arrow-two {
+  width: 32px;
+  height: 32px;
 }

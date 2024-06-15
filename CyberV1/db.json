@@ -1,6 +1,34 @@
 {
   "categories": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    {
+      "id": "1",
+      "title": "Phones",
+      "imgE": "./public/PhonesC.svg"
+    },
+    {
+      "id": "2",
+      "title": "Smart Watches",
+      "imgE": "./public/SmartWatches.svg"
+    },
+    {
+      "id": "3",
+      "title": "Cameras",
+      "imgE": "./public/Cameras.svg"
+    },
+    {
+      "id": "4",
+      "title": "Headphones",
+      "imgE": "./public/Headphones.svg"
+    },
+    {
+      "id": "5",
+      "title": "Computers",
+      "imgE": "./public/Computers.svg"
+    },
+    {
+      "id": "6",
+      "title": "Gaming",
+      "imgE": "./public/Gaming.svg"
+    }
   ]
 }

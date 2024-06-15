@@ -1,20 +1,30 @@
 .main-category {
-  width: 100% !important;
-  height: 352px !important;
-  padding: 80px 160px 80px 160px !important;
-  gap: 32px !important;
-  opacity: 0px !important;
+  width: 100%;
+  padding: 80px 160px;
   background-color: #fafafa;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 .top-category {
-  width: 1120px !important;
-  height: 32px !important;
-  gap: 0px !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  opacity: 0px !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.category-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px; /* Kategori kutuları arasındaki boşluk */
+}
+
+/* Stil dosyası: homeAv3.css */
+
+.category-row {
+  display: flex; /* Elemanları yatay olarak düzenle */
+  flex-wrap: wrap; /* Elemanları birbirine sar ve yeni satırlara geç */
+  justify-content: center; /* Elemanları yatayda ortala */
+  gap: 16px; /* Kategori kutuları arasındaki boşluk */
 }

@@ -1,0 +1,32 @@
+/* Stil dosyası: homeAv3CategoryCard.css */
+
+.homeAv3CategoryCardE {
+  width: 160px; /* Kutu genişliği */
+  height: 128px; /* Kutu yüksekliği */
+  padding: 24px 16px;
+  gap: 8px; /* İç içe geçmiş öğeler arasındaki boşluk */
+  border-radius: 15px;
+  background-color: #ededed;
+  margin: 25px; /* Dış boşluk */
+  display: flex; /* İç içe geçmiş öğeleri yatay olarak düzenle */
+  flex-direction: column; /* İç içe geçmiş öğeleri sütun olarak düzenle */
+  justify-content: center; /* Yükseklik yönünde ortala */
+  align-items: center; /* Genişlik yönünde ortala */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.homeAv3CategoryCardE img {
+  width: 48px; /* Resim genişliği */
+  height: 48px; /* Resim yüksekliği */
+  margin-bottom: 8px;
+}
+
+.homeAv3CategoryCardEText {
+  color: black;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
