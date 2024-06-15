@@ -14,7 +14,7 @@ const HomeAv2A3 = () => {
           <Col className="p-0 m-0 pt-2">
             <HomeAv2A3Image />
           </Col>
-          <Col className="d-flex flex-column align-items-center justify-content-center m-5">
+          <Col className="d-flex flex-column align-items-center justify-content-center m-5 mt-2">
             <HomeAv2A3Text />
           </Col>
         </Row>
