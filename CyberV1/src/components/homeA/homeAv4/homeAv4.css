@@ -17,3 +17,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.homeAv4-products-grid {
+  width: 1120px;
+  height: 880px;
+  gap: 16px;
+  opacity: 0px;
+}

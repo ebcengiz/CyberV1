@@ -13,6 +13,7 @@ const HomeAv4 = () => {
           <Row className="homeAv4-tags">
             <HomeAv4R1 />
           </Row>
+          <Row className="homeAv4-products-grid"></Row>
         </Col>
       </Container>
     </>
