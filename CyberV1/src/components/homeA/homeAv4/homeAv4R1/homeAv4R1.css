@@ -1,0 +1,35 @@
+.homeAv4R1Css .nav-link {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  color: #8b8b8b; /* Varsayılan yazı rengi */
+  text-decoration: none;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.homeAv4R1Css .nav-link:hover {
+  color: black; /* Hover durumunda yazı rengi */
+  border-bottom: 2px solid black; /* Hover durumunda alt çizgi */
+}
+
+.homeAv4R1Css .nav-link.active {
+  color: #8b8b8b; /* Aktif durumda yazı rengi */
+  text-decoration: none;
+  border-bottom: none; /* Aktif durumda alt çizgi olmasın */
+  outline: none; /* Varsayılan mavi outline'ı kaldır */
+  box-shadow: none; /* Varsayılan mavi box shadow'u kaldır */
+}
+
+.homeAv4R1Css .nav-link.active:hover {
+  color: black; /* Aktif durumda hover yapıldığında yazı rengi */
+  border-bottom: 2px solid black; /* Aktif durumda hover yapıldığında alt çizgi */
+}
+
+.homeAv4R1Css .nav-link:focus,
+.homeAv4R1Css .nav-link:focus-visible {
+  color: #8b8b8b; /* Focus durumunda yazı rengi */
+  outline: none; /* Focus durumunda outline kaldır */
+  box-shadow: none; /* Focus durumunda box shadow kaldır */
+}
