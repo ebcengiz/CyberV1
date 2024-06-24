@@ -30,5 +30,55 @@
       "title": "Gaming",
       "imgE": "./public/Gaming.svg"
     }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "descP": "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+      "imgPe": "./public/Iphone14pro1.svg",
+      "priceP": "$900"
+    },
+    {
+      "id": "2",
+      "descP": "Blackmagic Pocket Cinema Camera 6k",
+      "imgPe": "./public/CinemaCamera",
+      "priceP": "$2535"
+    },
+    {
+      "id": "3",
+      "descP": "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case",
+      "imgPe": "./public/AppleW.svg",
+      "priceP": "$399"
+    },
+    {
+      "id": "4",
+      "descP": "AirPods Max Silver",
+      "imgPe": "./public/AirPodsMaxSilver.svg",
+      "priceP": "$549"
+    },
+    {
+      "id": "5",
+      "descP": "Samsung Galaxy Watch6 Classic 47mm Black",
+      "imgPe": "./public/SamsungGalaxy.svg",
+      "priceP": "$369"
+    },
+    {
+      "id": "6",
+      "descP": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black",
+      "imgPe": "./public/GalaxyZ.svg",
+      "priceP": "$1799"
+    },
+    {
+      "id": "7",
+      "descP": "Galaxy Buds FE Graphite",
+      "imgPe": "./public/GalaxyBuds.svg",
+      "priceP": "$99.99"
+    },
+    {
+      "id": "8",
+      "descP": "Apple iPad 9 10.2' 64GB Wi-Fi Silver (MK2L3) 2021",
+      "imgPe": "./public/AppleIpad.svg",
+      "priceP": "$398"
+    }
   ]
 }
