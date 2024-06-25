@@ -84,22 +84,26 @@
   "productsB": [
     {
       "id": "1",
-      "title": "Popular Products",
+      "titlePb": "Popular Products",
+      "descPb": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
       "imgB": "./public/Group1.svg"
     },
     {
       "id": "2",
-      "title": "Ipad Pro",
+      "titlePb": "Ipad Pro",
+      "descPb": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
       "imgB": "./public/IpadProB.svg"
     },
     {
       "id": "3",
-      "title": "Samsung Galaxy ",
+      "titlePb": "Samsung Galaxy ",
+      "descPb": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
       "imgB": "./public/SamsungGlaxyB.svg"
     },
     {
       "id": "4",
-      "title": "Macbook Pro",
+      "titlePb": "Macbook Pro",
+      "descPb": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
       "imgB": "./public/Macbook1.svg"
     }
   ]
