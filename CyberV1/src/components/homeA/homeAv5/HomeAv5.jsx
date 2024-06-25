@@ -10,7 +10,9 @@ const HomeAv5 = () => {
     <>
       <Container className="homeAv5Banners">
         <Row>
-          <Col>1 of 1</Col>
+          <Col className="d-flex flex-column justify-content-center align-items-center">
+            1 of 1
+          </Col>
           <Col>1 of 1</Col>
           <Col>1 of 1</Col>
           <Col>1 of 1</Col>
