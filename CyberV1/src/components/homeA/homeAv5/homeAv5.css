@@ -1,0 +1,9 @@
+.homeAv5Banners {
+  width: 100%;
+  height: 640px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -8,8 +8,11 @@ import Col from "react-bootstrap/Col";
 const HomeAv5 = () => {
   return (
     <>
-      <Container>
+      <Container className="homeAv5Banners">
         <Row>
+          <Col>1 of 1</Col>
+          <Col>1 of 1</Col>
+          <Col>1 of 1</Col>
           <Col>1 of 1</Col>
         </Row>
       </Container>

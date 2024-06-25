@@ -80,5 +80,27 @@
       "imgPe": "./public/AppleIpad.svg",
       "priceP": "$398"
     }
+  ],
+  "productsB": [
+    {
+      "id": "1",
+      "title": "Popular Products",
+      "imgB": "./public/Group1.svg"
+    },
+    {
+      "id": "2",
+      "title": "Ipad Pro",
+      "imgB": "./public/IpadProB.svg"
+    },
+    {
+      "id": "3",
+      "title": "Samsung Galaxy ",
+      "imgB": "./public/SamsungGlaxyB.svg"
+    },
+    {
+      "id": "4",
+      "title": "Macbook Pro",
+      "imgB": "./public/Macbook1.svg"
+    }
   ]
 }
