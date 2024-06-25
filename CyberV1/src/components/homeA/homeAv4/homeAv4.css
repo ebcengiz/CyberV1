@@ -1,26 +1,25 @@
 .homeAv4 {
   width: 100%;
-  height: 1056px;
-  padding: 56px 160px 56px 160px;
-  gap: 32px;
-  opacity: 0px;
+  padding: 56px 160px;
   background-color: white;
 }
 
 .homeAv4-tags {
-  width: 1120px;
-  height: 32px;
-  gap: 32px;
-  opacity: 0px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 .homeAv4-products-grid {
-  width: 1120px;
-  height: 880px;
-  gap: 16px;
-  opacity: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.homeAv4-products-grid-col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
 }
