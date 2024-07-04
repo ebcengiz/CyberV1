@@ -1,0 +1,81 @@
+.footerV1-cnt {
+  background-color: #000;
+  color: #cfcfcf;
+  padding: 80px 160px;
+}
+
+.footer-top-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.nav-link-ftr {
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+  color: #cfcfcf; /* Yazı rengi örneği */
+  transition: color 0.3s ease; /* Geçiş efekti */
+}
+
+.nav-link-ftr:hover {
+  color: white; /* Örneğin hover durumunda beyaz renk */
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 65.4px;
+  height: 22.87px;
+  margin-bottom: 24px;
+}
+
+.footer-description {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.footer-title {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  color: #cfcfcf;
+  margin-bottom: 8px;
+}
+
+.footer-contact {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* .footer-bottom-row {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+} */
+
+.footer-bottom-col {
+  /* text-align: center; */
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+}
+
+.ftr-fgr {
+  margin-right: 36.33px;
+}

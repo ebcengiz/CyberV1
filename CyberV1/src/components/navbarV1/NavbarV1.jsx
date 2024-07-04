@@ -25,7 +25,7 @@ const NavbarV1 = () => {
         }}
       >
         <Container fluid>
-          <Navbar.Brand href="#" className="navbar-brand-mr">
+          <Navbar.Brand href="/" className="navbar-brand-mr">
             <img src={CyberLogo} alt="CyberLogo" />
           </Navbar.Brand>
           <SearchForm />
