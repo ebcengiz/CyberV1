@@ -22,7 +22,7 @@ const HomeAv5 = () => {
   }, []);
 
   return (
-    <Container fluid className="homeAv5Banners">
+    <Container fluid className="homeAv5Banners mb-5">
       <Row className="justify-content-start align-items-center homeAv5Banners-row">
         {productsB.map((product) => (
           <Col
