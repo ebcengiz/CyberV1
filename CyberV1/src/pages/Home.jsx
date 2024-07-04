@@ -6,6 +6,7 @@ import HomeAv3 from "../components/homeA/homeAv3/HomeAv3";
 import HomeAv4 from "../components/homeA/homeAv4/HomeAv4";
 import HomeAv5 from "../components/homeA/homeAv5/HomeAv5";
 import HomeAv6 from "../components/homeA/homeAv6/HomeAv6";
+import HomeAv7 from "../components/homeA/homeAv7/HomeAv7";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <HomeAv4 />
       <HomeAv5 />
       <HomeAv6 />
+      <HomeAv7 />
     </>
   );
 };
