@@ -1,0 +1,21 @@
+.homeAv6-cntnr {
+  width: 100%;
+  height: auto;
+  padding: 80px 160px 80px 160px;
+  gap: 32px;
+  opacity: 0px;
+}
+
+.homeAv6-spn {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  color: black;
+  /* margin-bottom: 32px !important; */
+}
+
+.homeAv6-rw1 {
+  margin-bottom: 32px;
+}
