@@ -10,7 +10,7 @@
   padding: 24px 16px;
   gap: 16px;
   border-radius: 8px;
-  background-color: #f6f6f6;
+  background-color: #f6f6f6 !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
 }
