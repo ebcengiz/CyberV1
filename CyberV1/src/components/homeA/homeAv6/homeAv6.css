@@ -19,3 +19,15 @@
 .homeAv6-rw1 {
   margin-bottom: 32px;
 }
+
+.homeAv6-rw2 {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+}
+
+.homeAv6-cl1 {
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 16px !important;
+}

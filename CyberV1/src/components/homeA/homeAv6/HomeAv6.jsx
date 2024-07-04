@@ -23,16 +23,20 @@ const HomeAv6 = () => {
 
   return (
     <>
-      <Container fluid className="homeAv6-cntnr">
+      <Container className="homeAv6-cntnr">
         <Row className="homeAv6-rw1">
           <Col>
             <span className="homeAv6-spn">Discounts up to -50%</span>
           </Col>
         </Row>
-        <Row>
+        <Row className="homeAv6-rw2">
           {productsDpE.map((product) => (
-            <Col key={product.id} xs={12} sm={6} md={3}>
-              <HomeAv6R />
+            <Col key={product.id} xs={12} sm={6} md={3} className="homeAv6-cl1">
+              <HomeAv6R
+                descDpE={product.descDp}
+                imgDpE={product.imgDp}
+                priceDpE={product.priceDp}
+              />
             </Col>
           ))}
         </Row>
