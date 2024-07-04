@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import axios from "axios";
+import HomeAv6R from "./homeAv6R/HomeAv6R";
 
 const HomeAv6 = () => {
   const [productsDpE, setProductsDpE] = useState([]);
@@ -30,7 +31,9 @@ const HomeAv6 = () => {
         </Row>
         <Row>
           {productsDpE.map((product) => (
-            <Col key={product.id} xs={12} sm={6} md={3}></Col>
+            <Col key={product.id} xs={12} sm={6} md={3}>
+              <HomeAv6R />
+            </Col>
           ))}
         </Row>
       </Container>
