@@ -110,5 +110,31 @@
       "imgB": "./public/Macbook1.svg",
       "keyId": "4"
     }
+  ],
+  "productsDp": [
+    {
+      "id": "1",
+      "descDp": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "imgDp": "./public/Group1.svg",
+      "priceDp": "$1437"
+    },
+    {
+      "id": "2",
+      "descDp": "AirPods Max Silver",
+      "imgDp": "./public/IpadProB.svg",
+      "priceDp": "$549"
+    },
+    {
+      "id": "3",
+      "descDp": "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case",
+      "imgDp": "./public/SamsungGlaxyB.svg",
+      "priceDp": "$399"
+    },
+    {
+      "id": "4",
+      "descDp": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "imgDp": "./public/Macbook1.svg",
+      "priceDp": "$1499"
+    }
   ]
 }
