@@ -20,3 +20,15 @@
   justify-content: center;
   text-align: center;
 }
+
+.productsPage-content-row {
+  width: 100%;
+  height: auto;
+  padding: 24px 160px 56px 160px;
+  gap: 32px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}

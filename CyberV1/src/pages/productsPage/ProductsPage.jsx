@@ -15,7 +15,7 @@ const ProductsPage = () => {
             <ProductsPageA1 />
           </Col>
         </Row>
-        <Row>
+        <Row className="productsPage-content-row">
           <Col>1 of 3</Col>
           <Col>1 of 3</Col>
         </Row>
