@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./productsPage.css";
 import ProductsPageA1 from "../../components/productsPageA1/ProductsPageA1";
+import ProductsPageA2 from "../../components/productsPageA2/ProductsPageA2";
 
 const ProductsPage = () => {
   return (
@@ -16,7 +17,9 @@ const ProductsPage = () => {
           </Col>
         </Row>
         <Row className="productsPage-content-row">
-          <Col>1 of 3</Col>
+          <Col>
+            <ProductsPageA2 />
+          </Col>
           <Col>1 of 3</Col>
         </Row>
       </Container>

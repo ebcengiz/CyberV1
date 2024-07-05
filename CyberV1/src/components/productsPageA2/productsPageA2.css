@@ -1,0 +1,24 @@
+.productsPageA2-acr {
+  width: 100%;
+  max-width: 256px;
+  gap: 24px;
+}
+
+.accordion-body {
+  padding: 0 !important; /* Accordion içeriği için padding'i kaldır */
+}
+
+.search-form-container {
+  width: 100%;
+  padding: 0; /* Arama formunun padding'ini kaldır */
+  box-sizing: border-box;
+}
+
+.accordion-item {
+  width: 100%;
+}
+
+.searchFormEP-b {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
