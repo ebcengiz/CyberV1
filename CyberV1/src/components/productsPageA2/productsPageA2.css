@@ -4,6 +4,16 @@
   gap: 24px;
 }
 
+.accordion-header-nm {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+}
+
 .accordion-body {
   padding: 0 !important; /* Accordion içeriği için padding'i kaldır */
 }

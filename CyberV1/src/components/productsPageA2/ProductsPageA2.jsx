@@ -45,7 +45,9 @@ const ProductsPageA2 = () => {
     <div className="productsPageA2-acr">
       <Accordion defaultActiveKey="0" flush>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Brand</Accordion.Header>
+          <Accordion.Header className="accordion-header-nm">
+            Brand
+          </Accordion.Header>
           <hr />
           <Accordion.Body>
             <SearchFormEP className="searchFormEP-b">
@@ -55,10 +57,39 @@ const ProductsPageA2 = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>Category</Accordion.Header>
-          <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </Accordion.Body>
+          <Accordion.Header className="accordion-header-nm">
+            Battery capacity
+          </Accordion.Header>
+          <hr />
+          <Accordion.Body>Çok yakında...</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header className="accordion-header-nm">
+            Screen type
+          </Accordion.Header>
+          <hr />
+          <Accordion.Body>Çok yakında...</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header className="accordion-header-nm">
+            Screen diagonal
+          </Accordion.Header>
+          <hr />
+          <Accordion.Body>Çok yakında...</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="4">
+          <Accordion.Header className="accordion-header-nm">
+            Protection class
+          </Accordion.Header>
+          <hr />
+          <Accordion.Body>Çok yakında...</Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="5">
+          <Accordion.Header className="accordion-header-nm">
+            Protection class
+          </Accordion.Header>
+          <hr />
+          <Accordion.Body>Built-in memory</Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </div>
