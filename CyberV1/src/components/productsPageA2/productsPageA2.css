@@ -15,12 +15,12 @@
 }
 
 .accordion-body {
-  padding: 0 !important; /* Accordion içeriği için padding'i kaldır */
+  padding: 0 !important;
 }
 
 .search-form-container {
   width: 100%;
-  padding: 0; /* Arama formunun padding'ini kaldır */
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -31,4 +31,27 @@
 .searchFormEP-b {
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+.brand-options {
+  margin-top: 16px;
+}
+
+.brand-option {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-checkbox .form-check-input {
+  background-color: white; /* Varsayılan durumda beyaz arka plan */
+  color: black; /* Varsayılan durumda siyah metin */
+  /* box-shadow: none; */
+}
+
+.custom-checkbox .form-check-input:checked {
+  background-color: black; /* Seçildiğinde siyah arka plan */
+  color: white; /* Seçildiğinde beyaz metin */
+  /* box-shadow: none; */
 }

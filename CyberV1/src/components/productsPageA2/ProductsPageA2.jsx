@@ -1,9 +1,11 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./productsPageA2.css";
 import Accordion from "react-bootstrap/Accordion";
 import styled from "styled-components";
 import logoSearchP from "../../assets/searchI.svg";
+import axios from "axios";
+import Form from "react-bootstrap/Form";
 
 const SearchFormEP = styled.form`
   display: flex;
@@ -41,6 +43,19 @@ const SearchInputP = styled.input`
 `;
 
 const ProductsPageA2 = () => {
+  const [productsBrandDE, setProductsBrandDE] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/productsBrandD")
+      .then((response) => {
+        setProductsBrandDE(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
   return (
     <div className="productsPageA2-acr">
       <Accordion defaultActiveKey="0" flush>
@@ -48,48 +63,59 @@ const ProductsPageA2 = () => {
           <Accordion.Header className="accordion-header-nm">
             Brand
           </Accordion.Header>
-          <hr />
           <Accordion.Body>
-            <SearchFormEP className="searchFormEP-b">
+            <SearchFormEP>
               <LogoImgP src={logoSearchP} alt="Search Icon" />
               <SearchInputP type="text" placeholder="Search..." />
             </SearchFormEP>
+            <div className="brand-options">
+              {productsBrandDE.map((brand) => (
+                <div key={brand.id} className="brand-option">
+                  <Form.Check
+                    type="checkbox"
+                    id={`brand-${brand.id}`}
+                    label={
+                      <>
+                        <span>{brand.titleBrandDp}</span>{" "}
+                        <span>({brand.stockDp})</span>
+                      </>
+                    }
+                    className="custom-checkbox"
+                  />
+                </div>
+              ))}
+            </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header className="accordion-header-nm">
             Battery capacity
           </Accordion.Header>
-          <hr />
-          <Accordion.Body>Çok yakında...</Accordion.Body>
+          <Accordion.Body>Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
           <Accordion.Header className="accordion-header-nm">
             Screen type
           </Accordion.Header>
-          <hr />
-          <Accordion.Body>Çok yakında...</Accordion.Body>
+          <Accordion.Body>Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
           <Accordion.Header className="accordion-header-nm">
             Screen diagonal
           </Accordion.Header>
-          <hr />
-          <Accordion.Body>Çok yakında...</Accordion.Body>
+          <Accordion.Body>Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
           <Accordion.Header className="accordion-header-nm">
             Protection class
           </Accordion.Header>
-          <hr />
-          <Accordion.Body>Çok yakında...</Accordion.Body>
+          <Accordion.Body>Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="5">
           <Accordion.Header className="accordion-header-nm">
-            Protection class
+            Built-in memory
           </Accordion.Header>
-          <hr />
-          <Accordion.Body>Built-in memory</Accordion.Body>
+          <Accordion.Body>Coming soon...</Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </div>
