@@ -64,7 +64,8 @@ const ProductsPageA2 = () => {
             Brand
           </Accordion.Header>
           <Accordion.Body>
-            <SearchFormEP>
+            <hr />
+            <SearchFormEP className="mt-3">
               <LogoImgP src={logoSearchP} alt="Search Icon" />
               <SearchInputP type="text" placeholder="Search..." />
             </SearchFormEP>
@@ -91,31 +92,31 @@ const ProductsPageA2 = () => {
           <Accordion.Header className="accordion-header-nm">
             Battery capacity
           </Accordion.Header>
-          <Accordion.Body>Coming soon...</Accordion.Body>
+          <Accordion.Body className="mt-3 mb-3">Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
           <Accordion.Header className="accordion-header-nm">
             Screen type
           </Accordion.Header>
-          <Accordion.Body>Coming soon...</Accordion.Body>
+          <Accordion.Body className="mt-3 mb-3">Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
           <Accordion.Header className="accordion-header-nm">
             Screen diagonal
           </Accordion.Header>
-          <Accordion.Body>Coming soon...</Accordion.Body>
+          <Accordion.Body className="mt-3 mb-3">Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
           <Accordion.Header className="accordion-header-nm">
             Protection class
           </Accordion.Header>
-          <Accordion.Body>Coming soon...</Accordion.Body>
+          <Accordion.Body className="mt-3 mb-3">Coming soon...</Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="5">
           <Accordion.Header className="accordion-header-nm">
             Built-in memory
           </Accordion.Header>
-          <Accordion.Body>Coming soon...</Accordion.Body>
+          <Accordion.Body className="mt-3 mb-3">Coming soon...</Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </div>
