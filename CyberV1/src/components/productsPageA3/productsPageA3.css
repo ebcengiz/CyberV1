@@ -1,0 +1,122 @@
+.productsPageA3-cntr {
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: -15px !important;
+}
+
+.productsPageA3-row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productsPageA3-row1-col1-v1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6c6c6c;
+  margin-right: 8px;
+}
+
+.productsPageA3-row1-col1-v2 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.form-select {
+  /* width: 0px !important; */
+  width: 50% !important;
+}
+
+.frm-slct-by {
+  width: 256px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 0.5px solid #d4d4d4;
+  background-color: #ffffff;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.frm-slct-opt {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.productsPageA3-row2 {
+  margin-top: 24px !important;
+}
+
+.productsPageA3-row2-spc-col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.productsPageA3-row3 {
+  margin-top: 40px !important;
+  /* margin-left: 279.5px !important; */
+  /* margin-right: 279.5px !important; */
+}
+/* productsPageA3.css */
+.productsPageA3-row3 .pagination .page-item .page-link {
+  background-color: #f6f6f6 !important;
+  color: black !important;
+  border-color: #f6f6f6 !important;
+}
+
+.productsPageA3-row3 .pagination .page-item.active .page-link {
+  background-color: black !important;
+  color: white !important;
+  border-color: black !important;
+}
+
+.productsPageA3-row3 .pagination .page-link:focus,
+.productsPageA3-row3 .pagination .page-link:hover {
+  background-color: #e0e0e0 !important;
+  color: black !important;
+  border-color: #e0e0e0 !important;
+}
+
+.productsPageA3-row3 .pagination .page-item:first-child .page-link {
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.productsPageA3-row3 .pagination .page-item:last-child .page-link {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+.productsPageA3-row3 .pagination .page-link:not(.disabled):not(:disabled) {
+  cursor: pointer;
+}
+
+.productsPageA3-row3 .pagination .page-link.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.productsPageA3-row3 .pagination .page-link:focus,
+.productsPageA3-row3 .pagination .page-link:hover {
+  z-index: 2;
+  color: black;
+  text-decoration: none;
+  background-color: #e0e0e0;
+  border-color: #dee2e6;
+}
+
+.productsPageA3-row3 .pagination .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #000;
+  border-color: #000;
+}

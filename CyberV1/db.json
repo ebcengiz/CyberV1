@@ -183,5 +183,61 @@
       "titleBrandDp": "Realme",
       "stockDp": "35"
     }
+  ],
+  "productsPageV": [
+    {
+      "id": "1",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1G.svg",
+      "titlePageV": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "pricePageV": "$1437"
+    },
+    {
+      "id": "2",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1W.svg",
+      "titlePageV": "Apple iPhone 11 128GB White (MQ233)",
+      "pricePageV": "$510"
+    },
+    {
+      "id": "3",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1W.svg",
+      "titlePageV": "Apple iPhone 11 128GB White (MQ233)",
+      "pricePageV": "$550"
+    },
+    {
+      "id": "4",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1G1.svg",
+      "titlePageV": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "pricePageV": "$1499"
+    },
+    {
+      "id": "5",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1G.svg",
+      "titlePageV": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "pricePageV": "$1399"
+    },
+    {
+      "id": "6",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1.svg",
+      "titlePageV": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
+      "pricePageV": "$1600"
+    },
+    {
+      "id": "7",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1P.svg",
+      "titlePageV": "Apple iPhone 13 mini 128GB Pink (MLK23)",
+      "pricePageV": "$850"
+    },
+    {
+      "id": "8",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1Sb.svg",
+      "titlePageV": "Apple iPhone 14 Pro 256GB Space Black (MQ0T3)",
+      "pricePageV": "$1399"
+    },
+    {
+      "id": "9",
+      "imgPageV": "./src/assets/assetsV2/Iphone14pro1S.svg",
+      "titlePageV": "Apple iPhone 14 Pro 256GB Silver (MQ103)",
+      "pricePageV": "$1399"
+    }
   ]
 }

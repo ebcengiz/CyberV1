@@ -1,34 +1,62 @@
 .productsPage-ctr {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  width: 100% !important;
+  background-color: white !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 24px, 160px, 56px, 160px !important;
+  gap: 32px !important;
 }
 
 .productsPage-breadcrumb-row {
-  width: 100%;
+  width: 100% !important;
+  padding: 40px 160px !important;
+  gap: 16px !important;
+  /* flex-direction: column !important; */
+  /* flex-wrap: nowrap !important; */
   /* margin-bottom: 20px; */
-  padding: 40px 160px 40px 160px;
-  gap: 16px;
+  /* background-color: #f8f9fa; */
 }
 
-.productsPage-ctr-row1-col1 {
+/* .productsPage-ctr-row1-col1 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
+} */
 
 .productsPage-content-row {
-  width: 100%;
-  height: auto;
-  padding: 24px 160px 56px 160px;
-  gap: 32px;
-  opacity: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
+  width: 100% !important;
+  flex-wrap: nowrap !important;
+  padding: 24px 160px !important;
+  gap: 32px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  box-sizing: border-box !important;
+  /* opacity: 0px; */
+  /* height: auto; */
+  /* margin-top: 24px !important; */
+}
+
+.productsPage-content-row-col1 {
+  width: 25% !important;
+  gap: 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  /* margin-top: 24px !important; */
+  /* align-items: flex-start !important; */
+  /* justify-content: flex-start !important; */
+  /* opacity: 0 !important; */
+  /* margin-right: 32px !important; */
+  /* padding: 0px !important; */
+}
+
+.productsPage-content-row-col2 {
+  width: 75% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  /* margin-top: 24px !important; */
 }

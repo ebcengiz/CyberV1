@@ -44,6 +44,24 @@
   cursor: pointer;
 }
 
+.brand-stockDp-spn1 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+}
+
+.brand-stockDp-spn2 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #929292;
+}
+
 .custom-checkbox .form-check-input {
   background-color: white; /* Varsayılan durumda beyaz arka plan */
   color: black; /* Varsayılan durumda siyah metin */

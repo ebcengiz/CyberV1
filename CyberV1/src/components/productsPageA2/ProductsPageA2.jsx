@@ -77,8 +77,12 @@ const ProductsPageA2 = () => {
                     id={`brand-${brand.id}`}
                     label={
                       <>
-                        <span>{brand.titleBrandDp}</span>{" "}
-                        <span>({brand.stockDp})</span>
+                        <span className="brand-stockDp-spn1">
+                          {brand.titleBrandDp}
+                        </span>{" "}
+                        <span className="brand-stockDp-spn2">
+                          {brand.stockDp}
+                        </span>
                       </>
                     }
                     className="custom-checkbox"
