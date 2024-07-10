@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const StyledButtonV1 = styled.button`
+const StyledLinkV1 = styled(Link)`
   width: 184px;
   height: 56px;
   padding: 16px 56px;
@@ -20,6 +21,7 @@ const StyledButtonV1 = styled.button`
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s, opacity 0.3s;
+  text-decoration: none;
 
   &:hover {
     opacity: 0.8;
@@ -30,7 +32,7 @@ const StyledButtonV1 = styled.button`
 const HomeAvB2 = () => {
   return (
     <>
-      <StyledButtonV1>Shop Now</StyledButtonV1>
+      <StyledLinkV1 to="/productsPage">Shop Now</StyledLinkV1>
     </>
   );
 };
