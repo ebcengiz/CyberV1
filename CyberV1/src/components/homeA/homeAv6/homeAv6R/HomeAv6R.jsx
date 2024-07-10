@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import styled from "styled-components";
 import FavoriteIconP from "../../../../../public/FavoriteIconP.svg";
 import Figure from "react-bootstrap/Figure";
-
+import { Link } from "react-router-dom";
 const StyledButtonDpE = styled.button`
   background-color: black;
   border: none;
@@ -42,9 +42,11 @@ const HomeAv6R = ({ descDpE, imgDpE, priceDpE }) => {
         <Card.Body className="homeAv6R-bdyE">
           <Card.Text className="homeAv6R-dscE">{descDpE}</Card.Text>
           <Card.Text className="homeAv6R-prcE">{priceDpE}</Card.Text>
-          <StyledButtonDpE className="styled-button-DpE">
-            Buy Now
-          </StyledButtonDpE>
+          <Link to="/productsPage">
+            <StyledButtonDpE className="styled-button-DpE">
+              Buy Now
+            </StyledButtonDpE>
+          </Link>
         </Card.Body>
       </Card>
     </>
