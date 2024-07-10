@@ -1,6 +1,6 @@
 .home-av1 {
   background-color: #211c24;
-  width: 100%;
+  width: 100% !important;
   height: 632px;
   display: flex;
   justify-content: space-between;
