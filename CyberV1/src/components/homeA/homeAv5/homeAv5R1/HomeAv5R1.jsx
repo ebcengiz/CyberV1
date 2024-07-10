@@ -4,7 +4,7 @@ import React from "react";
 import "./homeAv5R1.css"; // Stil dosyası
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-
+import { Link } from "react-router-dom";
 const HomeAv5R1 = ({ titleBe, descPbE, imgBe, keyId }) => {
   return (
     <Card className={`homeAv5R1Card homeAv5R1Card-${keyId}`}>
@@ -20,9 +20,11 @@ const HomeAv5R1 = ({ titleBe, descPbE, imgBe, keyId }) => {
           {titleBe}
         </Card.Title>
         <Card.Text className="homeAv5R1Card-desc">{descPbE}</Card.Text>
-        <Button className={`homeAv5R1Card-btn homeAv5R1Card-btn-${keyId}`}>
-          Shop Now
-        </Button>
+        <Link to="/productsPage" className="text-decoration-none">
+          <Button className={`homeAv5R1Card-btn homeAv5R1Card-btn-${keyId}`}>
+            Shop Now
+          </Button>
+        </Link>
       </Card.Body>
     </Card>
   );
