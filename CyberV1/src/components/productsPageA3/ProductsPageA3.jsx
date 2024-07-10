@@ -8,9 +8,12 @@ import Form from "react-bootstrap/Form";
 import axios from "axios";
 import ProductsPageA3Card from "./productsPageA3Card/ProductsPageA3Card";
 import Pagination from "react-bootstrap/Pagination";
+import { useProductContext } from "../productContext/ProductContext";
 
 const ProductsPageA3 = () => {
-  const [productsPA, setProductsPA] = useState([]);
+  // const [productsPA, setProductsPA] = useState([]);
+  const { selectedBrands, productsPA, setProductsPA } = useProductContext();
+  const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
     axios
@@ -21,7 +24,16 @@ const ProductsPageA3 = () => {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [setProductsPA]);
+
+  useEffect(() => {
+    setFilteredProducts(
+      productsPA.filter(
+        (product) =>
+          selectedBrands.length === 0 || selectedBrands.includes(product.brand)
+      )
+    );
+  }, [productsPA, selectedBrands]);
 
   return (
     <Container className="productsPageA3-cntr">
@@ -33,7 +45,9 @@ const ProductsPageA3 = () => {
           <span className="productsPageA3-row1-col1-v1">
             Selected Products:
           </span>
-          <span className="productsPageA3-row1-col1-v2">85</span>
+          <span className="productsPageA3-row1-col1-v2">
+            {filteredProducts.length}
+          </span>
         </Col>
         <Col md={6} className="d-flex justify-content-end align-items-start">
           <Form.Select
@@ -60,7 +74,7 @@ const ProductsPageA3 = () => {
         </Col>
       </Row>
       <Row className="productsPageA3-row2">
-        {productsPA.map((product) => (
+        {filteredProducts.map((product) => (
           <Col
             key={product.id}
             xs={12}

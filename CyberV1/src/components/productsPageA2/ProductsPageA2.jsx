@@ -6,6 +6,7 @@ import styled from "styled-components";
 import logoSearchP from "../../assets/searchI.svg";
 import axios from "axios";
 import Form from "react-bootstrap/Form";
+import { useProductContext } from "../productContext/ProductContext";
 
 const SearchFormEP = styled.form`
   display: flex;
@@ -43,7 +44,9 @@ const SearchInputP = styled.input`
 `;
 
 const ProductsPageA2 = () => {
+  const { setSelectedBrands } = useProductContext();
   const [productsBrandDE, setProductsBrandDE] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     axios
@@ -56,6 +59,15 @@ const ProductsPageA2 = () => {
       });
   }, []);
 
+  const handleCheckboxChange = (brand) => {
+    setSelectedBrands((prevSelectedBrands) => {
+      if (prevSelectedBrands.includes(brand)) {
+        return prevSelectedBrands.filter((b) => b !== brand);
+      } else {
+        return [...prevSelectedBrands, brand];
+      }
+    });
+  };
   return (
     <div className="productsPageA2-acr">
       <Accordion defaultActiveKey="0" flush>
@@ -67,28 +79,40 @@ const ProductsPageA2 = () => {
             <hr />
             <SearchFormEP className="mt-3">
               <LogoImgP src={logoSearchP} alt="Search Icon" />
-              <SearchInputP type="text" placeholder="Search..." />
+              <SearchInputP
+                type="text"
+                placeholder="Search..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
             </SearchFormEP>
             <div className="brand-options">
-              {productsBrandDE.map((brand) => (
-                <div key={brand.id} className="brand-option">
-                  <Form.Check
-                    type="checkbox"
-                    id={`brand-${brand.id}`}
-                    label={
-                      <>
-                        <span className="brand-stockDp-spn1">
-                          {brand.titleBrandDp}
-                        </span>{" "}
-                        <span className="brand-stockDp-spn2">
-                          {brand.stockDp}
-                        </span>
-                      </>
-                    }
-                    className="custom-checkbox"
-                  />
-                </div>
-              ))}
+              {productsBrandDE
+                .filter((brand) =>
+                  brand.titleBrandDp
+                    .toLowerCase()
+                    .includes(searchTerm.toLowerCase())
+                )
+                .map((brand) => (
+                  <div key={brand.id} className="brand-option">
+                    <Form.Check
+                      type="checkbox"
+                      id={`brand-${brand.id}`}
+                      label={
+                        <>
+                          <span className="brand-stockDp-spn1">
+                            {brand.titleBrandDp}
+                          </span>{" "}
+                          <span className="brand-stockDp-spn2">
+                            {brand.stockDp}
+                          </span>
+                        </>
+                      }
+                      className="custom-checkbox"
+                      onChange={() => handleCheckboxChange(brand.titleBrandDp)}
+                    />
+                  </div>
+                ))}
             </div>
           </Accordion.Body>
         </Accordion.Item>
