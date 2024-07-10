@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import Figure from "react-bootstrap/Figure";
 import styled from "styled-components";
 import FavoriteIconP from "../../../../../public/FavoriteIconP.svg";
+import { Link } from "react-router-dom";
 
 const StyledButton = styled.button`
   background-color: black;
@@ -40,7 +41,9 @@ const HomeAv4R2 = ({ descP, imgP, price }) => {
       <Card.Body className="homeav4r2pc-body">
         <Card.Text className="homeav4r2pc-desc">{descP}</Card.Text>
         <Card.Text className="homeav4r2pc-price">{price}</Card.Text>
-        <StyledButton className="styled-button">Buy Now</StyledButton>
+        <Link to="/productsPage">
+          <StyledButton className="styled-button">Buy Now</StyledButton>
+        </Link>
       </Card.Body>
     </Card>
   );
