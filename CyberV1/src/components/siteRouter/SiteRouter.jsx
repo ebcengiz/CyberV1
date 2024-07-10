@@ -8,6 +8,7 @@ import ContactUs from "../../pages/ContactUs";
 import Blog from "../../pages/Blog";
 import PageNotFound from "../../pages/PageNotFound";
 import ProductsPage from "../../pages/productsPage/ProductsPage";
+import ProductDetailsPage from "../../pages/productDetailsPage/ProductDetailsPage";
 
 const SiteRouter = () => {
   return (
@@ -15,6 +16,7 @@ const SiteRouter = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/productsPage" element={<ProductsPage />} />
+        <Route path="/productDetailsPage" element={<ProductDetailsPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/blog" element={<Blog />} />

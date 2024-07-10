@@ -1,0 +1,90 @@
+.title-v1 {
+  font-family: " SF Pro Display", sans-serif !important;
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  line-height: 40px !important;
+  text-align: left !important;
+  color: black !important;
+}
+
+.price-v {
+  width: 536px !important;
+  height: 48px !important;
+  gap: 16px !important;
+  opacity: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  margin-top: 24px !important;
+  margin-right: 16px !important;
+  margin-bottom: 16px !important;
+  /* text-align: center !important; */
+}
+
+.price-v1 {
+  font-family: "SF Pro Display", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  line-height: 48px !important;
+  letter-spacing: 0.03em !important;
+  text-align: left !important;
+  color: black !important;
+}
+
+.price-v2 {
+  font-family: "SF Pro Display", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 32px !important;
+  letter-spacing: 0.03em !important;
+  text-align: left !important;
+  text-decoration: line-through !important;
+  color: #a0a0a0 !important;
+}
+
+.info-v {
+  width: 536px !important;
+  /* height: 368px !important; */
+  gap: 24px !important;
+  opacity: 0px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  /* text-align: center !important; */
+  margin-bottom: 24px !important;
+}
+
+.text-v1 {
+  font-family: "SF Pro Display", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  text-align: left !important;
+  color: black !important;
+  margin-right: 24px !important;
+}
+.tabs-memory-v {
+  width: 536px !important;
+  height: 48px !important;
+  gap: 16px !important;
+  opacity: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  box-sizing: border-box !important;
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+.details-v {
+  width: 536px !important;
+  height: 144px !important;
+  gap: 16px !important;
+  opacity: 0px !important;
+  box-sizing: border-box !important;
+  flex-wrap: wrap !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
