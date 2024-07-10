@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import styled from "styled-components";
-const StyledButton = styled.button`
+import { Link } from "react-router-dom";
+
+const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,12 +16,13 @@ const StyledButton = styled.button`
   background: linear-gradient(90.7deg, #211c24 0.64%, #211c24 101%);
   color: white;
   white-space: nowrap;
+  text-decoration: none;
 `;
 
 const HomeAvB1 = () => {
   return (
     <>
-      <StyledButton>Shop Now</StyledButton>
+      <StyledLink to="/productsPage">Shop Now</StyledLink>
     </>
   );
 };
