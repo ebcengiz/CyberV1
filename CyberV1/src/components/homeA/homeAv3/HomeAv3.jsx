@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import HomeAv3TopText from "./homeAv3TopText/HomeAv3TopText";
 import axios from "axios";
 import HomeAv3CategoryCard from "./homeAv3CategoryCard/HomeAv3CategoryCard";
+import { Link } from "react-router-dom";
 
 const HomeAv3 = () => {
   const [categoryE, setCategoryE] = useState([]);
@@ -31,15 +32,17 @@ const HomeAv3 = () => {
         <Row className="top-category">
           <HomeAv3TopText />
         </Row>
-        <div className="category-row">
-          {categoryE.map((category) => (
-            <HomeAv3CategoryCard
-              key={category.id}
-              title={category.title}
-              imgE={category.imgE}
-            />
-          ))}
-        </div>
+        <Link to="/productsPage" className="text-decoration-none">
+          <div className="category-row">
+            {categoryE.map((category) => (
+              <HomeAv3CategoryCard
+                key={category.id}
+                title={category.title}
+                imgE={category.imgE}
+              />
+            ))}
+          </div>
+        </Link>
       </div>
     </Container>
   );
