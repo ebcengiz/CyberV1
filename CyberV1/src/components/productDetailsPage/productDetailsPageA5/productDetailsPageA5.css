@@ -1,0 +1,169 @@
+.productDetailsPage-tp-v {
+  width: 100%;
+  gap: 48px;
+  opacity: 0px;
+}
+.productDetailsPage-tp-v1 {
+  width: 100%;
+  gap: 48px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.productDetailsPage-tp-v1-spn1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: black;
+}
+
+.productDetailsPage-tp-v2 {
+  width: 100%;
+  gap: 60px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 48px;
+}
+
+.productDetailsPage-tp-v2-dv1 {
+  width: 184px;
+  height: 192px;
+  padding: 32px;
+  gap: 16px;
+  border-radius: 25px;
+  opacity: 1;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.productDetailsPage-tp-v2-dv1-spn1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 56px;
+  text-align: center;
+  color: black;
+}
+
+.productDetailsPage-tp-v2-dv1-spn2 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #323232;
+  opacity: 0.3;
+}
+
+.productDetailsPage-tp-v2-dv1-stars {
+  width: 120px;
+  height: 24px;
+  gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.productDetailsPage-tp-v2-dv2 {
+  width: 100%;
+  gap: 24px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+}
+
+.productDetailsPage-tp-v2-dv2-l {
+  width: 100%;
+  gap: 16px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.productDetailsPage-tp-v2-dv2-l-spn1 {
+  width: 150px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+}
+
+.productDetailsPage-tp-v2-dv2-l-sldr1 {
+  flex-grow: 1;
+  height: 5px;
+  border-radius: 16px;
+  background-color: #d9d9d9;
+  position: relative;
+}
+
+.productDetailsPage-tp-v2-dv2-l-sldr2 {
+  height: 5px;
+  border-radius: 16px;
+  background-color: #ffb547;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.productDetailsPage-tp-v2-dv2-l-sldr2.excellent {
+  width: 99%;
+}
+.productDetailsPage-tp-v2-dv2-l-sldr2.good {
+  width: 56%;
+}
+.productDetailsPage-tp-v2-dv2-l-sldr2.average {
+  width: 23%;
+}
+.productDetailsPage-tp-v2-dv2-l-sldr2.below-average {
+  width: 44%;
+}
+.productDetailsPage-tp-v2-dv2-l-sldr2.poor {
+  width: 11%;
+}
+
+.productDetailsPage-tp-v2-dv2-l-spn2 {
+  width: 30px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  color: black;
+  opacity: 0.4;
+}
+
+.productDetailsPage-fld {
+  width: 100% !important;
+  padding: 24px 16px 24px 16px !important;
+  gap: 0px !important;
+  border-radius: 7px !important;
+  border: 0.5px solid #cecece !important;
+  opacity: 0px !important;
+  background-color: white !important;
+  font-family: "SF Pro Display", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+  letter-spacing: -0.005em !important;
+  text-align: left !important;
+  color: #979797 !important;
+}

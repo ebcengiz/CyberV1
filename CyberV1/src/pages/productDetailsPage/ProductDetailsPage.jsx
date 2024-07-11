@@ -8,6 +8,7 @@ import ProductDetailsPageA1 from "../../components/productDetailsPage/productDet
 import ProductDetailsPageA2 from "../../components/productDetailsPage/productDetailsPageA2/ProductDetailsPageA2";
 import ProductDetailsPageA3 from "../../components/productDetailsPage/productDetailsPageA3/ProductDetailsPageA3";
 import ProductDetailsPageA4 from "../../components/productDetailsPage/productDetailsPageA4/ProductDetailsPageA4";
+import ProductDetailsPageA5 from "../../components/productDetailsPage/productDetailsPageA5/ProductDetailsPageA5";
 
 const ProductDetailsPage = () => {
   return (
@@ -33,6 +34,11 @@ const ProductDetailsPage = () => {
         <Row className="productDetailsPage-row3">
           <Col>
             <ProductDetailsPageA4 />
+          </Col>
+        </Row>
+        <Row className="productDetailsPage-row4">
+          <Col>
+            <ProductDetailsPageA5 />
           </Col>
         </Row>
       </Container>

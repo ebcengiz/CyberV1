@@ -50,3 +50,16 @@
   box-sizing: border-box !important;
   background-color: #fafafa !important;
 }
+
+.productDetailsPage-row4 {
+  width: 100% !important;
+  padding: 88px 160px 88px 160px !important;
+  gap: 32px !important;
+  border-radius: 24px !important;
+  opacity: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  background-color: white !important;
+}
