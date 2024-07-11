@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import ProductDetailsPageA1 from "../../components/productDetailsPage/productDetailsPageA1/ProductDetailsPageA1";
 import ProductDetailsPageA2 from "../../components/productDetailsPage/productDetailsPageA2/ProductDetailsPageA2";
 import ProductDetailsPageA3 from "../../components/productDetailsPage/productDetailsPageA3/ProductDetailsPageA3";
+import ProductDetailsPageA4 from "../../components/productDetailsPage/productDetailsPageA4/ProductDetailsPageA4";
 
 const ProductDetailsPage = () => {
   return (
@@ -30,7 +31,9 @@ const ProductDetailsPage = () => {
           </Col>
         </Row>
         <Row className="productDetailsPage-row3">
-          <Col>enes</Col>
+          <Col>
+            <ProductDetailsPageA4 />
+          </Col>
         </Row>
       </Container>
     </>
