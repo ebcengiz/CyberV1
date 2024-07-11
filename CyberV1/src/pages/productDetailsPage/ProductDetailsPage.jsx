@@ -29,6 +29,9 @@ const ProductDetailsPage = () => {
             </div>
           </Col>
         </Row>
+        <Row className="productDetailsPage-row3">
+          <Col>enes</Col>
+        </Row>
       </Container>
     </>
   );
