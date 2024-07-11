@@ -31,7 +31,7 @@
 
 .productDetailsPage-row2-dv2 {
   width: 536px !important;
-  height: 672px !important;
+  /* height: 672px !important; */
   gap: 32px !important;
   display: flex !important;
   flex-direction: column !important;

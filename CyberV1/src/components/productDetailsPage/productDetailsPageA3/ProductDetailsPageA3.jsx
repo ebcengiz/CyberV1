@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import "./productDetailsPageA3.css";
 import BlackC from "../../../assets/assetsV3/Ellipse12.svg";
 import PurpleC from "../../../assets/assetsV3/Ellipse13.svg";
@@ -14,6 +14,9 @@ import SmartphoneV2 from "../../../assets/assetsV3/smartphone-r1.svg";
 import SmartphoneV3 from "../../../assets/assetsV3/smartphone-r3.svg";
 import SmartphoneV4 from "../../../assets/assetsV3/smartphone-r4.svg";
 import SmartphoneV5 from "../../../assets/assetsV3/smartphone-r5.svg";
+import ShopV1 from "../../../assets/assetsV3/shop.svg";
+import DeliveryTruckV1 from "../../../assets/assetsV3/DeliveryTruck.svg";
+import VerifyV1 from "../../../assets/assetsV3/verify.svg";
 
 const PdPButtonV1 = styled.button`
   width: 122px !important;
@@ -96,7 +99,51 @@ const PdPButtonV4 = styled.button`
   color: black !important;
 `;
 
+const PdPButtonV5 = styled.button`
+  width: 260px;
+  height: 56px;
+  padding: 16px 56px 16px 56px;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid black;
+  opacity: 0px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+`;
+const PdPButtonV6 = styled.button`
+  width: 260px;
+  height: 56px;
+  padding: 16px 56px 16px 56px;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid black;
+  opacity: 0px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+`;
 const ProductDetailsPageA3 = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleMoreClick = () => {
+    setShowMore(!showMore);
+  };
+
   return (
     <>
       <span className="title-v1">Apple iPhone 14 Pro Max</span>
@@ -150,6 +197,64 @@ const ProductDetailsPageA3 = () => {
             textPdC1="Battery capacity"
             textPdC2="4323 mAh"
           />
+        </div>
+        <div className="details-txt-v">
+          {showMore ? (
+            <span
+              className="details-txt-v1"
+              onClick={handleMoreClick}
+              style={{ cursor: "pointer" }}
+            >
+              Coming Soon!!!
+            </span>
+          ) : (
+            <span className="details-txt-v1">
+              Enhanced capabilities thanks toan enlarged display of 6.7
+              inchesand work without rechargingthroughout the day. Incredible
+              photosas in weak, yesand in bright lightusing the new systemwith
+              two cameras{" "}
+              <span className="details-txt-v2" onClick={handleMoreClick}>
+                more...
+              </span>
+            </span>
+          )}
+        </div>
+      </div>
+      <div className="pdp-btns-v">
+        <PdPButtonV5>Add to Wishlist</PdPButtonV5>
+        <PdPButtonV6>Add to Card</PdPButtonV6>
+      </div>
+      <div className="pdp-icn-v">
+        <div
+          className="pdp-icn-v1"
+          style={{ marginRight: "32px", textWrap: "nowrap" }}
+        >
+          <img
+            src={DeliveryTruckV1}
+            alt="deliverytruck"
+            className="pdp-icn-v1-img"
+          />
+          <div className="pdp-icn-v-spnDv">
+            <span className="pdp-icn-v1-txt1">Free Delivery</span>
+            <span className="pdp-icn-v1-txt2">1-2 day</span>
+          </div>
+        </div>
+        <div
+          className="pdp-icn-v1"
+          style={{ marginRight: "32px", textWrap: "nowrap" }}
+        >
+          <img src={ShopV1} alt="deliverytruck" className="pdp-icn-v1-img" />
+          <div className="pdp-icn-v-spnDv">
+            <span className="pdp-icn-v1-txt1">In Stock</span>
+            <span className="pdp-icn-v1-txt2">Today</span>
+          </div>
+        </div>
+        <div className="pdp-icn-v1">
+          <img src={VerifyV1} alt="deliverytruck" className="pdp-icn-v1-img" />
+          <div className="pdp-icn-v-spnDv">
+            <span className="pdp-icn-v1-txt1">Guaranteed</span>
+            <span className="pdp-icn-v1-txt2">1 year</span>
+          </div>
         </div>
       </div>
     </>

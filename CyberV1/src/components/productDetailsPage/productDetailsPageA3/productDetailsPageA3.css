@@ -87,4 +87,108 @@
   display: flex !important;
   align-items: center !important;
   justify-content: flex-start !important;
+  margin-bottom: 24px !important;
+}
+
+.details-txt-v {
+  width: 536px !important;
+  height: 72px !important;
+  gap: 0px !important;
+  opacity: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  /* text-wrap: wrap !important; */
+  margin-bottom: 32px !important;
+}
+.details-txt-v1 {
+  font-family: " SF Pro Display", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0.03em !important;
+  text-align: left !important;
+  color: #6c6c6c !important;
+}
+
+.details-txt-v2 {
+  font-family: " SF Pro Display", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0.03em !important;
+  text-align: left !important;
+  color: #2c2c2c !important;
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+
+.pdp-btns-v {
+  width: 536px !important;
+  height: 56px !important;
+  gap: 16px !important;
+  opacity: 0px !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  margin-bottom: 32px !important;
+}
+
+.pdp-icn-v {
+  width: 536px !important;
+  height: 56px !important;
+  gap: 32px !important;
+  opacity: 0px !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  box-sizing: border-box !important;
+  /* margin-bottom: 112px !important; */
+  /* padding-bottom: 112px !important; */
+}
+
+.pdp-icn-v1 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  box-sizing: border-box !important;
+  background-color: white !important;
+  /* margin-right: 32px !important;
+  text-wrap: nowrap !important; */
+}
+.pdp-icn-v1-img {
+  width: 56px !important;
+  height: 56px !important;
+  padding: 16px !important;
+  gap: 8px !important;
+  border-radius: 11px !important;
+  opacity: 0px !important;
+  background-color: #f6f6f6;
+  box-sizing: border-box !important;
+}
+
+.pdp-icn-v-spnDv {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  margin-left: 16px !important;
+}
+
+.pdp-icn-v1-txt1 {
+  font-family: " SF Pro Display", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  text-align: left !important;
+  color: #717171 !important;
+}
+
+.pdp-icn-v1-txt2 {
+  font-family: "SF Pro Display", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  text-align: left !important;
+  color: black;
 }
