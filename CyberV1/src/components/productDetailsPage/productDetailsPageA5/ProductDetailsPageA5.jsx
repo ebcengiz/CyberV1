@@ -76,6 +76,7 @@ const ProductDetailsPageA5 = () => {
           placeholder="Leave Comment"
           className="productDetailsPage-fld"
         />
+        .
       </div>
     </>
   );
