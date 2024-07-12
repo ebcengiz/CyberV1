@@ -263,7 +263,9 @@
       "PdPNameSurname": "Darcy King",
       "PdPDate": "24 January,2023",
       "PdPStarts": "./src/assets/assetsV3/Stars.svg",
-      "PdPText": "I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition"
+      "PdPText": "I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition",
+      "SubimgProductDetailsPageV1": "./src/assets/assetsV3/Review=Image1.svg",
+      "SubimgProductDetailsPageV2": "./src/assets/assetsV3/Review=Image2.svg"
     }
   ]
 }

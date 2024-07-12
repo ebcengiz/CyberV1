@@ -76,7 +76,7 @@ const ProductDetailsPageA5 = () => {
           placeholder="Leave Comment"
           className="productDetailsPage-fld"
         />
-        .
+        <div className="productDetailsPage-tp-v3"></div>
       </div>
     </>
   );
