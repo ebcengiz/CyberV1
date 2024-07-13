@@ -1,11 +1,24 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./productDetailsPageA5.css";
 import StarV1 from "../../../assets/assetsV3/Star1.svg";
 import StarV2 from "../../../assets/assetsV3/Star5.svg";
 import Form from "react-bootstrap/Form";
+import axios from "axios";
+import ProductDetailsPageCard from "./productDetailsPageCard/ProductDetailsPageCard";
 
 const ProductDetailsPageA5 = () => {
+  const [pDpReview, setPdPreview] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/productDetailsPageV")
+      .then((response) => setPdPreview(response.data))
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
   return (
     <>
       <div className="productDetailsPage-tp-v">
@@ -76,7 +89,21 @@ const ProductDetailsPageA5 = () => {
           placeholder="Leave Comment"
           className="productDetailsPage-fld"
         />
-        <div className="productDetailsPage-tp-v3"></div>
+        {pDpReview.map((product) => (
+          <div className="productDetailsPage-tp-v3" key={product.id}>
+            <ProductDetailsPageCard
+              imgProductDetailsPageVdB={product.imgProductDetailsPageV}
+              PdPNameSurnameDb={product.PdPNameSurname}
+              PdPStartsDb={product.PdPStarts}
+              PdPDateDb={product.PdPDate}
+              PdPTextDb={product.PdPText}
+              SubimgProductDetailsPageV1Db={product.SubimgProductDetailsPageV1}
+              SubimgProductDetailsPageV2Db={product.SubimgProductDetailsPageV2}
+              id={product.id} // id prop'unu burada iletiyoruz
+              key={product.id} // key prop'u da burada id'ye eşit olarak belirliyoruz
+            />
+          </div>
+        ))}
       </div>
     </>
   );

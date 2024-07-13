@@ -167,3 +167,18 @@
   text-align: left !important;
   color: #979797 !important;
 }
+
+.productDetailsPage-tp-v3 {
+  width: 100% !important;
+  padding: 24px 28px 24px 16px !important;
+  gap: 19px !important;
+  border-radius: 10px !important;
+  opacity: 0px !important;
+  background-color: #fafafa !important;
+  display: flex !important;
+  /* flex-direction: column !important; */
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  margin-top: 32px !important;
+  box-sizing: border-box !important;
+}
