@@ -1,0 +1,168 @@
+.shoppingCart-main {
+  width: 100%;
+  padding: 112px 160px 112px 160px;
+  gap: 48px;
+  opacity: 0px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.shoppingCart-main-leftSide {
+  width: 100%;
+  gap: 40px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-right: 48px;
+}
+
+.shoppingCart-main-leftSide-sc-spn {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+}
+
+.shoppingCart-main-leftSide-products {
+  width: 100%;
+  gap: 40px;
+  border-radius: 15px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.shoppingCart-main-leftSide-products-a1 {
+  width: 100%;
+  padding: 16px 0px 16px 0px;
+  gap: 15px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.shoppingCart-main-leftSide-products-a1-spn-bx {
+  width: 193px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.shoppingCart-main-leftSide-products-a1-spn-bx-text1 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+  /* text-wrap: wrap; */
+}
+
+.shoppingCart-main-leftSide-products-a1-spn-bx-text2 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+  margin-top: 8px;
+}
+
+.shoppingCart-main-leftSide-products-a1-mines {
+  width: 24px;
+  height: 24px;
+  padding: 0px 8px 0px 8px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  margin-right: 8px;
+}
+
+.shoppingCart-main-leftSide-products-a1-number {
+  width: 40px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  opacity: 0px;
+  border: 0.5px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.shoppingCart-main-leftSide-products-a1-plus {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  margin-right: 24px;
+}
+
+.shoppingCart-main-leftSide-products-a1-price {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+  margin-right: 24px;
+}
+
+.shoppingCart-main-leftSide-products-a1-close {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: white;
+}
+
+.shoppingCart-main-leftSide-products-a1-hr {
+  width: 100%;
+  height: 0px;
+  gap: 0px;
+  opacity: 0px;
+  border: 0.5px solid #a3a3a3;
+  margin-bottom: 40px;
+}
+
+.shoppingCart-main-rightSide {
+  width: 100%;
+  padding: 56px 64px 56px 64px;
+  gap: 40px;
+  border-radius: 10px;
+  opacity: 0px;
+  border: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
