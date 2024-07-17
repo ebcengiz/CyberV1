@@ -9,6 +9,7 @@ import ProductDetailsPageA2 from "../../components/productDetailsPage/productDet
 import ProductDetailsPageA3 from "../../components/productDetailsPage/productDetailsPageA3/ProductDetailsPageA3";
 import ProductDetailsPageA4 from "../../components/productDetailsPage/productDetailsPageA4/ProductDetailsPageA4";
 import ProductDetailsPageA5 from "../../components/productDetailsPage/productDetailsPageA5/ProductDetailsPageA5";
+import ProductDetailsPageA6 from "../../components/productDetailsPage/productDetailsPageA6/ProductDetailsPageA6";
 
 const ProductDetailsPage = () => {
   return (
@@ -39,6 +40,11 @@ const ProductDetailsPage = () => {
         <Row className="productDetailsPage-row4">
           <Col>
             <ProductDetailsPageA5 />
+          </Col>
+        </Row>
+        <Row className="productDetailsPage-row5">
+          <Col>
+            <ProductDetailsPageA6 />
           </Col>
         </Row>
       </Container>
