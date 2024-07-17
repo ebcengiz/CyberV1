@@ -6,6 +6,33 @@ import StarV2 from "../../../assets/assetsV3/Star5.svg";
 import Form from "react-bootstrap/Form";
 import axios from "axios";
 import ProductDetailsPageCard from "./productDetailsPageCard/ProductDetailsPageCard";
+import DownArrowV from "../../../assets/assetsV3/down-arrow.svg";
+import styled from "styled-components";
+
+const DownArrowBtn = styled.button`
+  width: 208px;
+  height: 48px;
+  padding: 12px 56px 12px 56px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #545454;
+  opacity: 0px;
+  background-color: white;
+  color: black;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 24px;
+`;
+
+const CenteredContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+`;
 
 const ProductDetailsPageA5 = () => {
   const [pDpReview, setPdPreview] = useState([]);
@@ -104,6 +131,16 @@ const ProductDetailsPageA5 = () => {
             />
           </div>
         ))}
+        <CenteredContainer>
+          <DownArrowBtn style={{ textWrap: "nowrap" }}>
+            <span className="downArrowBtn-spn">View More</span>
+            <img
+              src={DownArrowV}
+              alt="DownArrowV"
+              className="downArrowBtn-img"
+            />
+          </DownArrowBtn>
+        </CenteredContainer>
       </div>
     </>
   );
