@@ -6,6 +6,8 @@ import Figure from "react-bootstrap/Figure";
 import styled from "styled-components";
 import Card from "react-bootstrap/Card";
 import FavoriteIconP from "../../../../public/FavoriteIconP.svg";
+import { useProductContext } from "../../productContext/ProductContext";
+import { useNavigate } from "react-router-dom";
 
 const StyledButtonPv = styled.button`
   background-color: black;
@@ -25,7 +27,19 @@ const StyledButtonPv = styled.button`
   }
 `;
 
-const ProductsPageA3Card = ({ titlePageVe, imgPageVe, pricePageVe }) => {
+const ProductsPageA3Card = ({
+  titlePageVe,
+  imgPageVe,
+  pricePageVe,
+  product,
+}) => {
+  const { selectProduct } = useProductContext();
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    selectProduct(product);
+    navigate("/productDetailsPage");
+  };
   return (
     <>
       <Card className="productsPageA3Card-crd">
@@ -49,7 +63,9 @@ const ProductsPageA3Card = ({ titlePageVe, imgPageVe, pricePageVe }) => {
           <Card.Text className="productsPageA3Card-price">
             {pricePageVe}
           </Card.Text>
-          <StyledButtonPv className="styled-button">Buy Now</StyledButtonPv>
+          <StyledButtonPv className="styled-button" onClick={handleButtonClick}>
+            Buy Now
+          </StyledButtonPv>
         </Card.Body>
       </Card>
     </>

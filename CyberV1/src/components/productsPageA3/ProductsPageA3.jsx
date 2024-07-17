@@ -84,6 +84,7 @@ const ProductsPageA3 = () => {
             className="productsPageA3-row2-spc-col"
           >
             <ProductsPageA3Card
+              product={product}
               titlePageVe={product.titlePageV}
               imgPageVe={product.imgPageV}
               pricePageVe={product.pricePageV}
