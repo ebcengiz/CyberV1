@@ -9,6 +9,11 @@ export const ProductProvider = ({ children }) => {
   const [productsPA, setProductsPA] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedProductDp, setSelectedProductDp] = useState(null);
+  const [selectedProductB, setSelectedProductB] = useState(null);
+
+  const selectProductB = (productB) => {
+    setSelectedProductB(productB);
+  };
 
   const selectProductDp = (productDp) => {
     setSelectedProductDp(productDp);
@@ -31,6 +36,9 @@ export const ProductProvider = ({ children }) => {
         selectProductDp,
         selectedProductDp,
         selectedProduct,
+        selectedProductB,
+        setSelectedProductB,
+        selectProductB,
       }}
     >
       {children}

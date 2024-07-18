@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./shoppingCart.css";
@@ -9,8 +10,18 @@ import AirPodsP from "../../assets/assetsV3/image56.svg";
 import AppleWatchP from "../../assets/assetsV3/image57.svg";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import { useProductContext } from "../../components/productContext/ProductContext";
+import { useNavigate } from "react-router-dom";
 
-const ShoppingCart = () => {
+const ShoppingCart = ({ productB }) => {
+  const { selectProductB } = useProductContext();
+  const navigate = useNavigate();
+
+  const handleClickStep1 = () => {
+    selectProductB(productB);
+    navigate("/step1");
+  };
+
   const validationSchema = Yup.object({
     code: Yup.string().required("Code is required"),
     cardNumber: Yup.string()
@@ -213,7 +224,12 @@ const ShoppingCart = () => {
               </span>
             </div>
           </div>
-          <button className="shoppingCart-main-rightSide-btn">Checkout</button>
+          <button
+            onClick={handleClickStep1}
+            className="shoppingCart-main-rightSide-btn"
+          >
+            Checkout
+          </button>
         </div>
       </div>
     </>
