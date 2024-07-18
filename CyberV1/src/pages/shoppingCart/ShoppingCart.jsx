@@ -7,7 +7,16 @@ import Plus from "../../assets/assetsV3/Plus.svg";
 import Close from "../../assets/assetsV3/Close.svg";
 import AirPodsP from "../../assets/assetsV3/image56.svg";
 import AppleWatchP from "../../assets/assetsV3/image57.svg";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+
 const ShoppingCart = () => {
+  const validationSchema = Yup.object({
+    code: Yup.string().required("Code is required"),
+    cardNumber: Yup.string()
+      .required("Card number is required")
+      .max(15, "Card number must be at most 10 characters"),
+  });
   return (
     <>
       <div className="shoppingCart-main">
@@ -110,7 +119,102 @@ const ShoppingCart = () => {
             </div>
           </div>
         </div>
-        <div className="shoppingCart-main-rightSide">fsafsafsa</div>
+        <div className="shoppingCart-main-rightSide">
+          <span className="shoppingCart-main-rightSide-text-os">
+            Order Summary
+          </span>
+          <div className="shoppingCart-main-rightSide-bx">
+            <Formik
+              initialValues={{ code: "", cardNumber: "" }}
+              validationSchema={validationSchema}
+              onSubmit={(values) => {
+                console.log("Form submitted", values);
+              }}
+            >
+              {({ isSubmitting }) => (
+                <Form>
+                  <div className="form-group" style={{ marginBottom: "24px" }}>
+                    <label className="form-group-lbl" htmlFor="code">
+                      Discount code / Promo code
+                    </label>
+                    <Field
+                      type="text"
+                      name="code"
+                      className="form-control"
+                      placeholder="Code"
+                    />
+                    <ErrorMessage
+                      name="code"
+                      component="div"
+                      className="error-message"
+                    />
+                  </div>
+                  <div className="form-group" style={{ position: "relative" }}>
+                    <label className="form-group-lbl" htmlFor="cardNumber">
+                      Your bonus card number
+                    </label>
+                    <Field
+                      type="text"
+                      name="cardNumber"
+                      className="form-control"
+                      placeholder="Enter Card Number"
+                    />
+                    <button
+                      type="submit"
+                      className="apply-button"
+                      disabled={isSubmitting}
+                    >
+                      Apply
+                    </button>
+                    <ErrorMessage
+                      name="cardNumber"
+                      component="div"
+                      className="error-message"
+                    />
+                  </div>
+                </Form>
+              )}
+            </Formik>
+          </div>
+          <div className="shoppingCart-main-rightSide-subText">
+            <div className="shoppingCart-main-rightSide-subText1">
+              <span className="shoppingCart-main-rightSide-subText1-s">
+                Subtotal
+              </span>
+              <span className="shoppingCart-main-rightSide-subText1-prc1">
+                $2347
+              </span>
+            </div>
+            <div className="shoppingCart-main-rightSide-subText2">
+              <span className="shoppingCart-main-rightSide-subText2-e">
+                Estimated Tax
+              </span>
+              <span className="shoppingCart-main-rightSide-subText2-prc1">
+                $50
+              </span>
+            </div>
+            <div
+              className="shoppingCart-main-rightSide-subText2"
+              style={{ marginBottom: "16px" }}
+            >
+              <span className="shoppingCart-main-rightSide-subText2-e">
+                Estimated shipping & Handling
+              </span>
+              <span className="shoppingCart-main-rightSide-subText2-prc1">
+                $29
+              </span>
+            </div>
+            <div className="shoppingCart-main-rightSide-subText1">
+              <span className="shoppingCart-main-rightSide-subText1-s">
+                Total
+              </span>
+              <span className="shoppingCart-main-rightSide-subText1-prc1">
+                $2426
+              </span>
+            </div>
+          </div>
+          <button className="shoppingCart-main-rightSide-btn">Checkout</button>
+        </div>
       </div>
     </>
   );
