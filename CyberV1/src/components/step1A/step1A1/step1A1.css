@@ -1,0 +1,40 @@
+.step1A1-cnt1 {
+  width: 160px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  margin-right: 320px;
+}
+
+.step1A1-cnt1-txt1 {
+  width: 100%;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.step1A1-cnt1-txt1-spn1 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+}
+
+.step1A1-cnt1-txt1-spn2 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+}

@@ -1,0 +1,10 @@
+.step1-main {
+  width: 100%;
+  padding: 72px 160px 72px 160px;
+  gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0px;
+  box-sizing: border-box;
+}
