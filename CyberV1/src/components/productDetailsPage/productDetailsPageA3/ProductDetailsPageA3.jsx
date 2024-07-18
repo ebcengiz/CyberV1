@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import "./productDetailsPageA3.css";
@@ -17,6 +18,8 @@ import SmartphoneV5 from "../../../assets/assetsV3/smartphone-r5.svg";
 import ShopV1 from "../../../assets/assetsV3/shop.svg";
 import DeliveryTruckV1 from "../../../assets/assetsV3/DeliveryTruck.svg";
 import VerifyV1 from "../../../assets/assetsV3/verify.svg";
+import { useProductContext } from "../../productContext/ProductContext";
+import { useNavigate } from "react-router-dom";
 
 const PdPButtonV1 = styled.button`
   width: 122px !important;
@@ -137,8 +140,15 @@ const PdPButtonV6 = styled.button`
   line-height: 24px;
   text-align: center;
 `;
-const ProductDetailsPageA3 = () => {
+const ProductDetailsPageA3 = ({ productDp }) => {
   const [showMore, setShowMore] = useState(false);
+  const { selectProductDp } = useProductContext();
+  const navigate = useNavigate();
+
+  const handleButtonClickDp = () => {
+    selectProductDp(productDp);
+    navigate("/shoppingCart");
+  };
 
   const handleMoreClick = () => {
     setShowMore(!showMore);
@@ -221,8 +231,8 @@ const ProductDetailsPageA3 = () => {
         </div>
       </div>
       <div className="pdp-btns-v">
-        <PdPButtonV5>Add to Wishlist</PdPButtonV5>
-        <PdPButtonV6>Add to Card</PdPButtonV6>
+        <PdPButtonV5 onClick={handleButtonClickDp}>Add to Wishlist</PdPButtonV5>
+        <PdPButtonV6 onClick={handleButtonClickDp}>Add to Card</PdPButtonV6>
       </div>
       <div className="pdp-icn-v">
         <div

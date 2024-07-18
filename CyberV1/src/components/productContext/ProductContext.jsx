@@ -8,6 +8,11 @@ export const ProductProvider = ({ children }) => {
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [productsPA, setProductsPA] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [selectedProductDp, setSelectedProductDp] = useState(null);
+
+  const selectProductDp = (productDp) => {
+    setSelectedProductDp(productDp);
+  };
 
   const selectProduct = (product) => {
     setSelectedProduct(product);
@@ -22,6 +27,10 @@ export const ProductProvider = ({ children }) => {
         setProductsPA,
         selectProduct,
         setSelectedProduct,
+        setSelectedProductDp,
+        selectProductDp,
+        selectedProductDp,
+        selectedProduct,
       }}
     >
       {children}
