@@ -66,8 +66,19 @@ const Step1A2B1 = () => {
             className="step1A2B1-main-adrs-img"
           />
         </div>
-        <img src={LineIcon1} alt="line+icon" className="step1A2B1-main-img" />
-        <span className="step1A2B1-main-text1">Add New Address</span>
+        <img
+          src={LineIcon1}
+          alt="line+icon"
+          className="step1A2B1-main-img"
+          style={{ cursor: "pointer" }}
+        />
+        <span className="step1A2B1-main-text1" style={{ cursor: "pointer" }}>
+          Add New Address
+        </span>
+      </div>
+      <div className="step1A2B1-main1">
+        <button className="step1A2B1-main1-btnw">Back</button>
+        <button className="step1A2B1-main1-btnb">Next</button>
       </div>
     </>
   );
