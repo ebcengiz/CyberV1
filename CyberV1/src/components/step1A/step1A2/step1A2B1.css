@@ -1,0 +1,140 @@
+.step1A2B1-main {
+  width: 100%;
+  gap: 32px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 64px;
+}
+
+.step1A2B1-text {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #17183b;
+}
+
+.step1A2B1-main-adrs {
+  width: 100%;
+  padding: 24px;
+  gap: 0px;
+  border-radius: 7px;
+  justify-content: space-between;
+  opacity: 0px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* değiştirilebilir alan duruma göre */
+}
+
+.step1A2B1-main-adrs-content {
+  width: 100%;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* değiştirilebilir alan duruma göre */
+}
+
+.step1A2B1-main-adrs-content-top {
+  width: 100%;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.custom-radio .form-check-input {
+  border: 2px solid black; /* Dış çemberin siyah rengi */
+  width: 24px;
+  height: 24px;
+  background-color: white; /* Orta kısmın beyaz rengi */
+  border-radius: 50%;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-radio .form-check-input:checked {
+  background-color: white; /* Orta kısmın beyaz rengi */
+  border-color: black; /* Dış çemberin siyah rengi */
+}
+
+.custom-radio .form-check-input:checked::before {
+  content: "";
+  display: block;
+  width: 0.75em;
+  height: 0.75em;
+  margin: auto;
+  border-radius: 50%;
+  background-color: black; /* İç çemberin siyah rengi */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step1A2B1-main-adrs-content-top-spn1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #17183b;
+}
+
+.step1A2B1-main-adrs-content-top-tag {
+  /* width: 4%; */
+  padding: 4px 8px 4px 8px;
+  gap: 8px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.step1A2B1-main-adrs-content-top-info {
+  width: 100%;
+  padding: 0px 0px 0px 40px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.step1A2B1-main-adrs-content-top-info-spn1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #17183b;
+}
+
+.step1A2B1-main-adrs-img {
+  cursor: pointer;
+}
+
+.step1A2B1-main-img {
+  width: 100%;
+  /* margin-bottom: -18px; */
+}
+
+.step1A2B1-main-text1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
