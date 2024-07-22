@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-// import "./step2A1V1.css";
 import Location2 from "../../../assets/LocationS2.svg";
 
-const Step2A1V1 = () => {
+const Step3A1 = () => {
   return (
     <>
       <div className="step1A1-cnt2">
@@ -17,4 +16,4 @@ const Step2A1V1 = () => {
   );
 };
 
-export default Step2A1V1;
+export default Step3A1;
