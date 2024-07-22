@@ -11,6 +11,7 @@ import ProductsPage from "../../pages/productsPage/ProductsPage";
 import ProductDetailsPage from "../../pages/productDetailsPage/ProductDetailsPage";
 import ShoppingCart from "../../pages/shoppingCart/ShoppingCart";
 import Step1 from "../../pages/step1/Step1";
+import Step2 from "../../pages/step2/Step2";
 
 const SiteRouter = () => {
   return (
@@ -19,6 +20,7 @@ const SiteRouter = () => {
         <Route path="/" element={<Home />} />
         <Route path="/productsPage" element={<ProductsPage />} />
         <Route path="/step1" element={<Step1 />} />
+        <Route path="/step2" element={<Step2 />} />
         <Route path="/productDetailsPage" element={<ProductDetailsPage />} />
         <Route path="/shoppingCart" element={<ShoppingCart />} />
         <Route path="/about" element={<About />} />
