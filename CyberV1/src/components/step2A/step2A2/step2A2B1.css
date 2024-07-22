@@ -1,0 +1,107 @@
+.step2A2B1-main {
+  width: 100%;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.step2A2B1-text {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #17183b;
+  margin-bottom: 32px;
+}
+
+.step2A2B1-main-methods {
+  width: 100%;
+  padding: 24px;
+  gap: 0px;
+  border-radius: 11px;
+  border: 1px solid #d1d1d8;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: flex-start;
+  opacity: 0px;
+  background-color: white;
+  text-align: center !important;
+  margin-bottom: 16px;
+}
+
+.step2A2B1-main-methods-text1 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: black;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: center;
+}
+
+.step2A2B1-main-methods-text2 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #17183b;
+  width: 100%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.step2A2B1-main-methods-text3 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #17183b;
+  text-wrap: nowrap;
+}
+
+.step2A2B1-main-methods1-text1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #a2a3b1;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: center;
+}
+
+.step2A2B1-main-methods1-text2 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #a2a3b1;
+  width: 100%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.step2A2B1-main-methods1-text3 {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #a2a3b1;
+  text-wrap: nowrap;
+}

@@ -4,6 +4,7 @@ import "./step2.css";
 import Step2A1V1 from "../../components/step2A/step2A1/Step2A1V1";
 import Step2A1V2 from "../../components/step2A/step2A1/Step2A1V2";
 import Step2A1V3 from "../../components/step2A/step2A1/Step2A1V3";
+import Step2A2B1 from "../../components/step2A/step2A2/Step2A2B1";
 const Step2 = () => {
   return (
     <>
@@ -11,6 +12,9 @@ const Step2 = () => {
         <Step2A1V1 />
         <Step2A1V2 />
         <Step2A1V3 />
+      </div>
+      <div className="step2-main1">
+        <Step2A2B1 />
       </div>
     </>
   );

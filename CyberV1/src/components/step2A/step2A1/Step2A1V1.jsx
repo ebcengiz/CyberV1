@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import "./step2A1V1.css";
+// import "./step2A1V1.css";
 import Location2 from "../../../assets/LocationS2.svg";
 
 const Step2A1V1 = () => {
