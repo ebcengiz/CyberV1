@@ -1,0 +1,222 @@
+.step3A2V2-main {
+  width: 100%;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0px;
+}
+
+.step3A2V2-main-text {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+}
+
+.step3A2V2-main-tabs {
+  width: 100%;
+  gap: 56px;
+  opacity: 0px;
+  margin-top: 24px;
+}
+
+.step3A2V2-main-tabs-text {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #717171;
+  text-decoration: none;
+}
+
+.step3A2V2-main-tabs-text:hover {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+  text-decoration: underline;
+}
+
+.credit-card {
+  position: relative;
+  width: 300px; /* Kart genişliği */
+  height: 180px; /* Kart yüksekliği */
+  margin-top: 40.83px;
+}
+
+.credit-card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white; /* Metin rengi */
+  padding: 20px; /* İç boşluk */
+  box-sizing: border-box;
+}
+
+.bank-name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-number {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: 100%;
+  padding: 0px 40.24px 0px 0px;
+  gap: 5.75px;
+  opacity: 0px;
+  font-family: "SF Pro Text", sans-serif;
+  font-size: 17.25px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: start;
+  color: white;
+}
+
+.card-holder-name {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  font-size: 14px;
+  font-family: "SF Pro Text", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #aeaeae;
+}
+
+.expiry-date {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  font-size: 14px;
+}
+
+.credit-card-form {
+  width: 100%;
+  gap: 16px;
+  opacity: 0px;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; */
+  margin-top: 40px;
+}
+.form-control {
+  width: 100%;
+  padding: 12px 16px 12px 16px;
+  gap: 0px;
+  border-radius: 7px;
+  border: 0.5px solid #cecece;
+  opacity: 0px;
+  background-color: white;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-group1 {
+  width: 100%;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.step3A2V2-main-checkboxF {
+  width: 100%;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 49px;
+}
+
+.step3A2V2-main-checkboxF-text {
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+  margin-left: 8px;
+}
+
+.step3A2V2-main-buttons {
+  width: 100%;
+  gap: 23px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step3A2V2-main-buttonB {
+  width: 100%;
+  padding: 24px 86px 24px 86px;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  opacity: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.step3A2V2-main-buttonP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 24px 86px 24px 86px;
+  gap: 8px;
+  border-radius: 6px;
+  opacity: 0px;
+  /* border: none; */
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+}
