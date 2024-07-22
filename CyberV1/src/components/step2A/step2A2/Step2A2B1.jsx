@@ -1,9 +1,25 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./step2A2B1.css";
 import Form from "react-bootstrap/Form";
 import FrameSdI from "../../../assets/FrameSd.svg";
-const Step2A2B1 = () => {
+import { useProductContext } from "../../productContext/ProductContext";
+import { useNavigate } from "react-router-dom";
+const Step2A2B1 = ({ step }) => {
+  const { selectStep } = useProductContext();
+  const navigate = useNavigate();
+
+  const handleClickNext = () => {
+    selectStep(step);
+    navigate("/step3");
+  };
+
+  const handleClickBack = () => {
+    selectStep(step);
+    navigate("/step1");
+  };
+
   return (
     <>
       <div className="step2A2B1-main">
@@ -48,8 +64,12 @@ const Step2A2B1 = () => {
           <img src={FrameSdI} alt="frame" style={{ cursor: "pointer" }} />
         </div>
         <div className="step1A2B1-main1">
-          <button className="step1A2B1-main1-btnw">Back</button>
-          <button className="step1A2B1-main1-btnb">Next</button>
+          <button className="step1A2B1-main1-btnw" onClick={handleClickBack}>
+            Back
+          </button>
+          <button className="step1A2B1-main1-btnb" onClick={handleClickNext}>
+            Next
+          </button>
         </div>
       </div>
     </>
