@@ -1,11 +1,27 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./step1A2B1.css";
 import Form from "react-bootstrap/Form";
 import Actions1 from "../../../assets/Actions.svg";
 import LineIcon1 from "../../../assets/Line+Icon.svg";
+import { useProductContext } from "../../productContext/ProductContext";
+import { useNavigate } from "react-router-dom";
 
-const Step1A2B1 = () => {
+const Step1A2B1 = ({ step }) => {
+  const { selectStep } = useProductContext();
+  const navigate = useNavigate();
+
+  const handleClickNext = () => {
+    selectStep(step);
+    navigate("/step2");
+  };
+
+  const handleClickBack = () => {
+    selectStep(step);
+    navigate("/shoppingCart");
+  };
+
   return (
     <>
       <div className="step1A2B1-main">
@@ -77,8 +93,12 @@ const Step1A2B1 = () => {
         </span>
       </div>
       <div className="step1A2B1-main1">
-        <button className="step1A2B1-main1-btnw">Back</button>
-        <button className="step1A2B1-main1-btnb">Next</button>
+        <button className="step1A2B1-main1-btnw" onClick={handleClickBack}>
+          Back
+        </button>
+        <button className="step1A2B1-main1-btnb" onClick={handleClickNext}>
+          Next
+        </button>
       </div>
     </>
   );

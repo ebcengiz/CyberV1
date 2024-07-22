@@ -10,6 +10,11 @@ export const ProductProvider = ({ children }) => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedProductDp, setSelectedProductDp] = useState(null);
   const [selectedProductB, setSelectedProductB] = useState(null);
+  const [selectedStep, setSelectedStep] = useState(null);
+
+  const selectStep = (step) => {
+    setSelectedStep(step);
+  };
 
   const selectProductB = (productB) => {
     setSelectedProductB(productB);
@@ -39,6 +44,9 @@ export const ProductProvider = ({ children }) => {
         selectedProductB,
         setSelectedProductB,
         selectProductB,
+        selectedStep,
+        setSelectedStep,
+        selectStep,
       }}
     >
       {children}
