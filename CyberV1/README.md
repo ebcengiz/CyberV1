@@ -6,6 +6,8 @@ Bu proje, **React** ile **Vite** kullanarak oluşturulmuştur ve HMR (Hot Module
 
 ## Proje Tanıtım Videosu
 
+(https://github.com/kullanici-adi/repository-adi/raw/main/assets/video.mp4)
+
 ## Kullanılan Teknolojiler
 
 - **React**: Kullanıcı arayüzü bileşenlerini oluşturmak için.
