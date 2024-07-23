@@ -6,7 +6,7 @@ Bu proje, **React** ile **Vite** kullanarak oluşturulmuştur ve HMR (Hot Module
 
 ## Proje Tanıtım Videosu
 
-(https://github.com/kullanici-adi/repository-adi/raw/main/assets/video.mp4)
+https://github.com/user-attachments/assets/549e519a-6346-4746-89ce-c3a037057ad8
 
 ## Kullanılan Teknolojiler
 
