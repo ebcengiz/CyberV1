@@ -13,6 +13,7 @@ import ShoppingCart from "../../pages/shoppingCart/ShoppingCart";
 import Step1 from "../../pages/step1/Step1";
 import Step2 from "../../pages/step2/Step2";
 import Step3 from "../../pages/step3/Step3";
+import PayPage from "../../pages/PayPage";
 
 const SiteRouter = () => {
   return (
@@ -23,6 +24,7 @@ const SiteRouter = () => {
         <Route path="/step1" element={<Step1 />} />
         <Route path="/step2" element={<Step2 />} />
         <Route path="/step3" element={<Step3 />} />
+        <Route path="/payPage" element={<PayPage />} />
         <Route path="/productDetailsPage" element={<ProductDetailsPage />} />
         <Route path="/shoppingCart" element={<ShoppingCart />} />
         <Route path="/about" element={<About />} />

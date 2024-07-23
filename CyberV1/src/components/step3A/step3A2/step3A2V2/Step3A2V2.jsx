@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import "./step3A2V2.css";
 import { Formik, Form as FormikForm, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -12,12 +12,17 @@ import Form from "react-bootstrap/Form";
 // import { useProductContext } from "../../productContext/ProductContext";
 import { useNavigate } from "react-router-dom";
 import { useProductContext } from "../../../productContext/ProductContext";
+
 const Step3A2V2 = ({ step }) => {
   const { selectStep } = useProductContext();
   const navigate = useNavigate();
   const handleClickBack = () => {
     selectStep(step);
     navigate("/step2");
+  };
+  const handleClickPay = () => {
+    selectStep(step);
+    navigate("/payPage");
   };
   const validationSchema = Yup.object().shape({
     cardNumber: Yup.string()
@@ -162,7 +167,7 @@ const Step3A2V2 = ({ step }) => {
           <button className="step3A2V2-main-buttonB" onClick={handleClickBack}>
             Back
           </button>
-          <button className="step3A2V2-main-buttonP" onClick="">
+          <button className="step3A2V2-main-buttonP" onClick={handleClickPay}>
             Pay
           </button>
         </div>
